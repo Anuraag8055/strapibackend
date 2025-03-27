@@ -30,7 +30,7 @@ export default ({ env }) => {
       database: env("DATABASE_NAME", "strapi_blog"),
       user: env("DATABASE_USERNAME", "strapi_user"),  
       password: env("DATABASE_PASSWORD", "cdac@123"),
-      ssl: env.bool("DATABASE_SSL", false) && {
+      ssl: env.bool("DATABASE_SSL", true) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
