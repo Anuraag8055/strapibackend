@@ -4,8 +4,7 @@
   "info": {
     "singularName": "site",
     "pluralName": "sites",
-    "displayName": "Site",
-    "description": ""
+    "displayName": "Site"
   },
   "options": {
     "draftAndPublish": true

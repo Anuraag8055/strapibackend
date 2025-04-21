@@ -568,7 +568,6 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
 export interface ApiSiteSite extends Struct.CollectionTypeSchema {
   collectionName: 'sites';
   info: {
-    description: '';
     displayName: 'Site';
     pluralName: 'sites';
     singularName: 'site';
